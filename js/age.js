@@ -1,14 +1,21 @@
 
-let a = 10
-let b = 20
-if (a>b){
-console.log("The larger number of "+a+" and "+b+" is "+ a)
-}
-else if(a<b){
-    console.log("The larger number of "+a+" and "+b+" is " +b)
+Math.random();
+let age=Math.floor(Math.random() * 20);
+console.log(age)
 
+if(age>0 && age<2)
+{
+  console.log("infant")
 }
-else{
-  console.log("Both are equal")
+if(age>=2 && age<5)
+{
+  console.log("toddler")
 }
-
+if(age>=5 && age<13)
+{
+  console.log("child")
+}
+if(age>=13 && age<21)
+{
+  console.log("preteen")
+}
